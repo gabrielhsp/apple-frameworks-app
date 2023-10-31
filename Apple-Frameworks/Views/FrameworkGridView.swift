@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct FrameworkGridView: View {
+    let columns: [GridItem] = [GridItem(.flexible()),
+                               GridItem(.flexible()),
+                               GridItem(.flexible())]
+    
     var body: some View {
-        Text("Hello, World!")
+        LazyVGrid(columns: columns) {
+            ForEach(MockData.frameworks, id: \.id) { framework in
+                FrameworkTitleView(framework: framework)
+            }
+        }
     }
 }
 
