@@ -1,0 +1,2 @@
+# SwiftUI Fundamentals - Apple Frameworks App
+This repository is dedicated to storage the second app of [SwiftUI Fundamentals](https://seanallen.teachable.com/p/swiftui-fundamentals) course by Sean Allen.
