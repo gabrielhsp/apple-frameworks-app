@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B0B45FF2B02FDE10013D11C /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B45FE2B02FDE10013D11C /* SafariView.swift */; };
 		9B50B4312AF0816200A6B24F /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B4302AF0816200A6B24F /* Framework.swift */; };
 		9B50B4352AF0837100A6B24F /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B4342AF0837100A6B24F /* FrameworkGridView.swift */; };
 		9B50B4372AF085B600A6B24F /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B4362AF085B600A6B24F /* FrameworkTitleView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B0B45FE2B02FDE10013D11C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		9B50B4302AF0816200A6B24F /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		9B50B4342AF0837100A6B24F /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		9B50B4362AF085B600A6B24F /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				9B50B4362AF085B600A6B24F /* FrameworkTitleView.swift */,
 				9B89EAD02AF43D0F003A3DF8 /* FrameworkDetailView.swift */,
 				9B89EAD22AF444E1003A3DF8 /* AFButton.swift */,
+				9B0B45FE2B02FDE10013D11C /* SafariView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				9B89EAD12AF43D0F003A3DF8 /* FrameworkDetailView.swift in Sources */,
 				9B50B4312AF0816200A6B24F /* Framework.swift in Sources */,
 				9B50B4372AF085B600A6B24F /* FrameworkTitleView.swift in Sources */,
+				9B0B45FF2B02FDE10013D11C /* SafariView.swift in Sources */,
 				9B89EAD32AF444E1003A3DF8 /* AFButton.swift in Sources */,
 				9B89EAD52AF5A59C003A3DF8 /* FrameworkGridViewModel.swift in Sources */,
 				9BB4DFC92AF08057006594AD /* Apple_FrameworksApp.swift in Sources */,
