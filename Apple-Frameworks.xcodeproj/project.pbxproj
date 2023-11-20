@@ -46,6 +46,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B0C773E2B0C1C3F00326D1A /* FrameworkGridView */ = {
+			isa = PBXGroup;
+			children = (
+				9B50B4342AF0837100A6B24F /* FrameworkGridView.swift */,
+				9B89EAD42AF5A59C003A3DF8 /* FrameworkGridViewModel.swift */,
+			);
+			path = FrameworkGridView;
+			sourceTree = "<group>";
+		};
+		9B0C773F2B0C1C5900326D1A /* FrameworkDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				9B89EAD02AF43D0F003A3DF8 /* FrameworkDetailView.swift */,
+			);
+			path = FrameworkDetailView;
+			sourceTree = "<group>";
+		};
+		9B0C77402B0C1C7E00326D1A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C773F2B0C1C5900326D1A /* FrameworkDetailView */,
+				9B0C773E2B0C1C3F00326D1A /* FrameworkGridView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		9B0C77412B0C1C8C00326D1A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				9B0C773C2B0C1A3300326D1A /* DismissButton.swift */,
+				9B89EAD22AF444E1003A3DF8 /* AFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		9B0C77422B0C1C9800326D1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B50B4362AF085B600A6B24F /* FrameworkTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B0C77432B0C1CAA00326D1A /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				9B0B45FE2B02FDE10013D11C /* SafariView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
 		9B50B4322AF0818400A6B24F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -57,12 +108,8 @@
 		9B50B4332AF0836300A6B24F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9B50B4342AF0837100A6B24F /* FrameworkGridView.swift */,
-				9B50B4362AF085B600A6B24F /* FrameworkTitleView.swift */,
-				9B89EAD02AF43D0F003A3DF8 /* FrameworkDetailView.swift */,
-				9B89EAD22AF444E1003A3DF8 /* AFButton.swift */,
-				9B0B45FE2B02FDE10013D11C /* SafariView.swift */,
-				9B0C773C2B0C1A3300326D1A /* DismissButton.swift */,
+				9B0C77422B0C1C9800326D1A /* View */,
+				9B0C77412B0C1C8C00326D1A /* Buttons */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -90,8 +137,9 @@
 				9BB4DFCC2AF0805A006594AD /* Assets.xcassets */,
 				9B50B4322AF0818400A6B24F /* Models */,
 				9BB4DFCE2AF0805A006594AD /* Preview Content */,
+				9B0C77402B0C1C7E00326D1A /* Scenes */,
+				9B0C77432B0C1CAA00326D1A /* UIKit Components */,
 				9B50B4332AF0836300A6B24F /* Views */,
-				9B89EAD42AF5A59C003A3DF8 /* FrameworkGridViewModel.swift */,
 			);
 			path = "Apple-Frameworks";
 			sourceTree = "<group>";
