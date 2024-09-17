@@ -23,7 +23,8 @@ struct FrameworkGridView: View {
             }
             .navigationTitle("🍎 Frameworks")
             .navigationDestination(for: Framework.self) { framework in
-                FrameworkDetailView(framework: framework)
+                FrameworkDetailView(viewModel: FrameworkDetailViewModel(framework: framework,
+                                                                        isShowingDetailView: .constant(false)))
             }
         }
     }
