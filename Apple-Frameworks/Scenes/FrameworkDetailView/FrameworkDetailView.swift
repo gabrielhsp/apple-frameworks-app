@@ -24,15 +24,19 @@ struct FrameworkDetailView: View {
             
             Spacer()
             
-            Button {
-                viewModel.isShowingSafariView = true
-            } label: {
+            Link(destination: URL(string: viewModel.framework.urlString) ?? URL(string: "www.apple.com")!) {
                 AFButton(title: "Learn More")
             }
+            
+//            Button {
+//                viewModel.isShowingSafariView = true
+//            } label: {
+//                AFButton(title: "Learn More")
+//            }
         }
-        .fullScreenCover(isPresented: $viewModel.isShowingSafariView) {
-            SafariView(url: URL(string: viewModel.framework.urlString) ?? URL(string: "www.apple.com")!)
-        }
+//        .fullScreenCover(isPresented: $viewModel.isShowingSafariView) {
+//            SafariView(url: URL(string: viewModel.framework.urlString) ?? URL(string: "www.apple.com")!)
+//        }
     }
 }
 
