@@ -11,22 +11,19 @@ struct FrameworkGridView: View {
     @StateObject var viewModel = FrameworkGridViewModel()
     
     var body: some View {
-        NavigationStack {
-            ScrollView {
-                LazyVGrid(columns: viewModel.columns) {
-                    ForEach(MockData.frameworks, id: \.id) { framework in
-                        NavigationLink(value: framework) {
-                            FrameworkTitleView(framework: framework)
-                        }
+        NavigationView {
+            List {
+                ForEach(MockData.frameworks, id: \.id) { framework in
+                    NavigationLink {
+                        FrameworkDetailView(viewModel: FrameworkDetailViewModel(framework: framework, isShowingDetailView: .constant(false)))
+                    } label: {
+                        FrameworkTitleView(framework: framework)
                     }
-                }                
+                }
             }
             .navigationTitle("🍎 Frameworks")
-            .navigationDestination(for: Framework.self) { framework in
-                FrameworkDetailView(viewModel: FrameworkDetailViewModel(framework: framework,
-                                                                        isShowingDetailView: .constant(false)))
-            }
         }
+        .accentColor(Color(.label))
     }
 }
 

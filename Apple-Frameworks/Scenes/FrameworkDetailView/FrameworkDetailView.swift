@@ -12,8 +12,6 @@ struct FrameworkDetailView: View {
     
     var body: some View {
         VStack {
-            DismissButton(isShowingDetailView: $viewModel.isShowingDetailView.wrappedValue)
-            
             Spacer()
             
             FrameworkTitleView(framework: viewModel.framework)
